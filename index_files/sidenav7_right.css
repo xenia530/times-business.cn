@@ -1,0 +1,29 @@
+ /*main css*/
+
+#sn7_leftsead{ position:fixed;top:50px;right:0px;    z-index: 99999;}
+*html #sn7_leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+#sn7_leftsead ul{margin:0px;}
+#sn7_leftsead li{height:60px;}
+#sn7_leftsead li img{float:right;}
+#sn7_leftsead li a{height:50px;float:right;display:block;min-width:47px;max-width:131px;text-decoration: none;}
+#sn7_leftsead li a .shows{display:block; width:50px; height:50px; }
+#sn7_leftsead li a .shows img{ width:50px; height:50px; }
+#sn7_leftsead li a .sn7_hides{display:none;margin-right:-143px;cursor:pointer;cursor:hand;}
+#sn7_leftsead li a .sn7_hides p{ width:131px; height:50px; line-height:50px; margin:0px; text-align: center; color:#fff; }
+#sn7_leftsead li a .sn7_phone{width:110px; position: absolute; right: 50px; z-index: -1;}
+#sn7_leftsead li a .sn7_phone ul li{height:50px; line-height:50px; font-size:12px; color: #fff !important; text-align:right; white-space: nowrap; margin-right: 10px;}
+#sn7_leftsead li a.sn7_weixin .sn7_hides {display:none;position:absolute;right:194px; }
+#sn7_leftsead li a.sn7_weixin .sn7_hides p{color:#333; font-size: 14px; background:#fff; width:166px; height: 30px; line-height: 30px; top: -30px; text-align: center;box-shadow: 3px 4px 18px -5px #333; -webkit-box-shadow: 3px 4px 18px -5px #333; -moz-box-shadow: 3px 4px 18px -5px #333; overflow: hidden;}
+#sn7_leftsead li a.sn7_weixin .sn7_hides img{width:166px; height:162px; } 
+ 
+/*在线客服*/
+#sn7_leftsead li .line-service{height:50px; float:right; display:block; min-width:47px;max-width:131px; cursor: pointer;}
+#sn7_leftsead li .line-service .shows{width: 50px; height: 50px;}
+#sn7_leftsead li .line-service img{width: 50px; height: 50px;}
+#sn7_leftsead li .line-service .service_bg li{height: 50px; line-height: 50px;}
+#sn7_leftsead li .line-service .service_bg li a{width:100px; height:50px; margin-right: 10px; font-size:14px; color: #fff; text-align:right; overflow: hidden;}
+#sn7_leftsead li .line-service .service_bg li a:hover{color: #fff;}
+#sn7_leftsead li .line-service .service_bg li a span{float:right; width: 72px; text-align: right; overflow: hidden;}
+#sn7_leftsead li .line-service .service_bg img{width: 20px; height: auto; margin: 14px 0 0 7px;}
+#sn7_leftsead li .line-service .sn7_hides {display: none; margin-right: -143px; cursor: pointer; cursor: hand;}
+#sn7_leftsead li .line-service .sn7_service { width: 110px; position: absolute; right: 50px; z-index: -1;}

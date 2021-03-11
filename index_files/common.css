@@ -1,0 +1,14 @@
+﻿/* 导航 */
+.navCont_s{ width:960px; margin:0 0 0 120px;}
+.m-newnav{position:relative; z-index:2;height: 46px;  width:expression(document.body.clentWidth<=1080?"1080px":"auto");}
+.m-newnav ul li{position:relative;padding: 0 2px 0 0;float: left;}
+
+.m-newnav ul li a{float: left; text-align: center; height: 46px;line-height: 46px;width: 109px; font-family: "Microsoft yahei","微软雅黑",Arial,Helvetica,sans-serif,"宋体"; text-decoration:none; color:#fff;}
+.m-newnav ul li a:hover{  text-decoration:none;}
+.m-newnav ul li ul {*z-index:4; position:absolute;top:47px;left:0px;visibility: hidden;;width:162px;}
+.m-newnav ul li ul.last {left:-60px;}
+.m-newnav ul li ul li ul {top:0px;left:160px;}
+.m-newnav ul li ul.last li ul{left:-162px;width:162px;}
+.m-newnav ul ul li {width:162px;}
+.m-newnav ul ul li a{ display:block;margin:0 auto;text-align:center;}
+.u-first a{}
